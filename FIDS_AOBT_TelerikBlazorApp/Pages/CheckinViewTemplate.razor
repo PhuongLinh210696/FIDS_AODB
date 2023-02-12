@@ -1,0 +1,16 @@
+﻿@page "/checkinviewtemplate"
+@using FIDS_AOBT.Model;
+
+
+<h3>CheckinViewTemplate</h3>
+
+<CardContainer>
+    
+    @if (Tasks != null)
+    {
+       <TelerikGrid Data="@Tasks" >
+            <GridColumn Field="@nameof(CheckinViewTemplateDto.Id)"></GridColumn>
+       </TelerikGrid>
+    }
+    </CardContainer>
+

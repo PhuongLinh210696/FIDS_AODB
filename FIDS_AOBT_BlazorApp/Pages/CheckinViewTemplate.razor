@@ -1,0 +1,62 @@
+﻿@page "/checkinviewtemplate"
+
+@using FIDS_AOBT_BlazorApp.Component;
+
+<h3>CheckinViewTemplate</h3>
+@if(Tasks == null){
+    <LoadingIndicator></LoadingIndicator>
+}else{
+
+    @*<table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+            <th>ViewFile</th>
+            <th>CssFile</th>
+            <th>Background</th>
+            <th>Fields</th>
+            <th>LastModifiedDate</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Tasks)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.ViewFile</td>
+                <td>@item.CssFile</td>
+                <td>@item.Background</td>
+                <td>@item.Fields</td>
+                <td>@item.LastModifiedDate</td>
+            </tr>
+        }
+        </tbody>
+</table>
+    <MudTable Items="@Tasks" Loading="@_loading" LoadingProgressColor="Color.Info">
+        <HeaderContent>
+            <MudTh>Id</MudTh>
+            <MudTh>Name</MudTh>
+            <MudTh>Css File</MudTh>
+            <MudTh>Background</MudTh>
+            <MudTh>Fields</MudTh>
+            <MudTh>Last Modified Date</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="Id">@context.Id</MudTd>
+            <MudTd DataLabel="Name">@context.Name</MudTd>
+            <MudTd DataLabel="Css File">@context.CssFile</MudTd>
+            <MudTd DataLabel="Background">@context.Background</MudTd>
+            <MudTd DataLabel="Fields">@context.Fields</MudTd>
+            <MudTd DataLabel="Last Modified Date">@context.LastModifiedDate.ToString("dd-MM-yyyy hh:mm")</MudTd>
+        </RowTemplate>
+    </MudTable>*@
+
+    }
+
+
+@code{
+    private bool _loading;
+}
+

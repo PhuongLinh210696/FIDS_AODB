@@ -1,0 +1,27 @@
+﻿@page "/checkin-view-template"
+@using FIDS_AOBT.Model;
+
+<h3>Checkin View Template</h3>
+
+<TelerikGrid Data="@Tasks"
+             Pageable="true"
+             Sortable="true"
+             FilterMode="@GridFilterMode.FilterRow"
+>
+    <GridColumns>
+        <GridColumn Field="@nameof(CheckinViewTemplateDto.Id)" Title="STT"></GridColumn>
+        <GridColumn Field="@nameof(CheckinViewTemplateDto.Name)"></GridColumn>
+        <GridColumn Field="@nameof(CheckinViewTemplateDto.CssFile)"></GridColumn>
+        <GridColumn Field="@nameof(CheckinViewTemplateDto.ViewFile)"></GridColumn>
+        <GridColumn Field="@nameof(CheckinViewTemplateDto.Background)"></GridColumn>
+        <GridColumn Field="@nameof(CheckinViewTemplateDto.LastModifiedDate)"></GridColumn>
+        <GridCommandColumn>
+            <GridCommandButton Command="Edit" Icon="">Edit</GridCommandButton>
+            <GridCommandButton Command="Delete" Icon="">Delete</GridCommandButton>
+        </GridCommandColumn>
+    </GridColumns>
+</TelerikGrid>
+
+@code {
+
+}

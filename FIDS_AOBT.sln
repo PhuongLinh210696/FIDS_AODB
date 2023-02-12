@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIDS_AOBT.API", "FIDS_AOBT.API\FIDS_AOBT.API.csproj", "{88ACB4F7-F728-421C-B7FD-A398D47F46DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIDS_AOBT_BlazorApp", "FIDS_AOBT_BlazorApp\FIDS_AOBT_BlazorApp.csproj", "{FC526309-4297-40FE-8288-2EB39FA82C21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIDS_AOBT.Model", "FIDS_AOBT.Model\FIDS_AOBT.Model.csproj", "{FDD155EA-CBEE-4E07-AF08-2C48F05C6126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikBlazorApp", "TelerikBlazorApp\TelerikBlazorApp.csproj", "{ABB7622C-E5EB-43D9-B698-2BEF1207CC70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88ACB4F7-F728-421C-B7FD-A398D47F46DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88ACB4F7-F728-421C-B7FD-A398D47F46DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88ACB4F7-F728-421C-B7FD-A398D47F46DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88ACB4F7-F728-421C-B7FD-A398D47F46DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC526309-4297-40FE-8288-2EB39FA82C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC526309-4297-40FE-8288-2EB39FA82C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC526309-4297-40FE-8288-2EB39FA82C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC526309-4297-40FE-8288-2EB39FA82C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD155EA-CBEE-4E07-AF08-2C48F05C6126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD155EA-CBEE-4E07-AF08-2C48F05C6126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD155EA-CBEE-4E07-AF08-2C48F05C6126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD155EA-CBEE-4E07-AF08-2C48F05C6126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB7622C-E5EB-43D9-B698-2BEF1207CC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB7622C-E5EB-43D9-B698-2BEF1207CC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB7622C-E5EB-43D9-B698-2BEF1207CC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB7622C-E5EB-43D9-B698-2BEF1207CC70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFD0DA10-3BE0-4106-B084-26DAA66B6F0B}
+	EndGlobalSection
+EndGlobal
